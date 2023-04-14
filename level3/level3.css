@@ -1,0 +1,180 @@
+:root{
+  --ff-8bit: 'Press Start 2P', cursive;
+}
+
+.grid {
+  border: 3px solid black;
+  height: 720px;
+  width: 720px;
+  display: flex;
+  margin:auto;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  background-image: url("../assets/Pixel_art_grass_image.png");
+}
+
+
+h1 {
+  position: relative;
+  margin:auto;
+  font-family: var(--ff-8bit);
+  top: 430px;
+  width: fit-content;
+  padding: .5rem;
+  color:white;
+}
+.grid div {
+  height: 80px;
+  width: 80px;
+}
+
+.ending-block {
+  background-color: transparent;
+}
+
+#time-left{
+  font-weight: bold;
+  font-size: 60px;
+}
+#level{
+  font-weight: bold;
+  font-size: 30px;
+}
+.time-div{
+  text-align: center;
+  color: white;
+}
+
+.cat {
+  height: 80px;
+  width: 80px;
+}
+
+.hero {
+  height: 80px;
+  width: 80px;
+}
+
+.starting-block {
+  background-color: transparent;
+}
+
+.zombie-left,
+.zombie-right {
+  background-color: transparent;
+}
+
+.z1,
+.z2,
+.z3 {
+  background-color: transparent;
+  background-image: url("../assets/zombie8bit.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.z4,
+.z5 {
+  background-color: transparent;
+}
+
+.bat1, .bat2 {
+  background-color: transparent;
+  background-image: url("../assets/bat8bit.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 10%;
+  max-width: 100%;
+  max-height: 100%;
+  z-index: 9998;
+}
+.w1{
+  background-color: transparent;
+  background-image: url("../assets/wizard8bit.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: 100%;
+  max-height: 100%;
+  z-index: 9999;
+}
+.w2,
+.w3,
+.w4{
+  background-color: transparent;
+}
+
+.bat3,
+.bat4,
+.bat5,
+.bat6 {
+  background-color: transparent;
+}
+
+.hero {
+  background-color: transparent;
+  background-image: url("../assets/batman8bit.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.button {
+  display: flex;
+  align-items: end;
+  background-color: #fff;
+  border: 0 solid #e2e8f0;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: var(--ff-8bit);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  max-width: 250px;
+  max-height: 150px;
+}
+.but1{
+  border: 3px solid #000000;
+  background-color: #92CD41;
+  grid-column: span 2;
+}
+.but1:hover{
+  background-color: #76c442;
+}
+.but2{
+  border: 3px solid #000000;
+  background-color: #F7D51D;
+}
+.but2:hover{
+  background-color: #F2C409;
+}
+.but3{
+  border: 3px solid #000000;
+  background-color: #E76E55;
+}
+.but3:hover{
+  background-color: #CE372B;
+}
+
+.divbuttons{
+  display: flex;
+  width: 726px;
+  margin:auto;
+  margin-top: 5px;
+  justify-content: space-between;
+}
+.level3{
+  background-color: #212121;
+}
