@@ -144,7 +144,7 @@ body {
 }
 
 .frontpage {
-  background-image: url(assets/nyancat.webp);
+  background-image: url("assets/nyancat.webp");
   background-position: 10% 0;
 }
 
